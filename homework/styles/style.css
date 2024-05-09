@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "SF Pro Text", sans-serif;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../font/SF\ Pro\ Text.ttf");
+}
 ul {
   display: flex;
   list-style: none;
@@ -19,14 +26,14 @@ button {
 .container {
   width: 1440px;
   margin-inline: auto;
+  padding-inline: 100px 95px;
 }
 #siteheader {
   width: 100%;
   min-width: 1440px;
   min-height: 126px;
-  display: fixed;
+  position: fixed;
   box-shadow: 0px -1px 0px 0px #c4cdd5 inset;
-  font-family: "SF Pro Text", sans-serif;
 }
 .news-bg {
   width: 100%;
@@ -104,5 +111,31 @@ button {
 }
 .space {
   width: 100%;
-  height: 126px;
+  height: 139.73px;
+  margin-bottom: 20px;
+}
+/* main page */
+.crumbs {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.crumbs span {
+  color: #afafaf;
+}
+.h-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.h-text h3 {
+  font-size: 28px;
+  line-height: 42px;
+}
+.h-text span {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
 }
