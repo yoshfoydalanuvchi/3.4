@@ -33,6 +33,7 @@ button {
   min-width: 1440px;
   min-height: 126px;
   position: fixed;
+  background-color: white;
   box-shadow: 0px -1px 0px 0px #c4cdd5 inset;
 }
 .news-bg {
@@ -139,10 +140,7 @@ button {
   font-weight: 300;
   line-height: 28px;
 }
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
+
 .top {
   width: 100%;
   display: flex;
@@ -167,4 +165,119 @@ button {
 }
 .grey-btn {
   border: 1px solid #c4cdd5;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0 0 0;
+}
+.left {
+  width: 288px;
+  height: 460px;
+  padding: 24px;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid #c4cdd5;
+}
+.left button {
+  width: 240px;
+  padding: 12px 0px 12px 0px;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+}
+.price-filter {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0px -1px 0px 0px #ededed inset;
+  padding-bottom: 16px;
+}
+.open {
+  height: 72px;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.price {
+  width: 240px;
+  height: 44px;
+  gap: 8px;
+}
+.price input {
+  width: 116px;
+  height: 44px;
+  border: 1px solid #eaeaea;
+  padding: 10px 2px;
+}
+.price input:focus {
+  border: 1px solid #4295e4;
+  outline: #4295e4;
+}
+.closed {
+  height: 50px;
+  gap: 73px;
+  box-shadow: 0px -1px 0px 0px #ededed inset;
+}
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.card {
+  width: 288px;
+  height: 453px;
+  margin-bottom: 35px;
+}
+.img {
+  width: 288px;
+  height: 320px;
+  padding: 12px;
+}
+.i1 {
+  background-image: url(../img/special-1.png);
+}
+.i2 {
+  background-image: url(../img/special-2.png);
+}
+.i3 {
+  background-image: url(../img/special-3.png);
+}
+.spc {
+  cursor: pointer;
+  text-align: left;
+}
+.card-text {
+  box-shadow: 0px 1px 3px 0px #eaeaea;
+  padding: 10px 12px 10px 12px;
+}
+.reyting {
+  margin-bottom: 10px 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.reyting span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.card h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.87px;
+  margin-top: 10px;
+}
+.card h2 span {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.48px;
+
+  color: #454f5b;
+  text-decoration: line-through;
 }
