@@ -139,3 +139,32 @@ button {
   font-weight: 300;
   line-height: 28px;
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.top div span {
+  margin-left: 25px;
+}
+.top button {
+  padding: 7px 72px 7px 72px;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  background-color: white;
+}
+.blue-btn {
+  border: 1px solid #add7ff;
+}
+.none-btn {
+  background: none;
+}
+.grey-btn {
+  border: 1px solid #c4cdd5;
+}
