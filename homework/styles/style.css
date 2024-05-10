@@ -281,3 +281,25 @@ button {
   color: #454f5b;
   text-decoration: line-through;
 }
+.paggination {
+  margin-inline: auto;
+  cursor: pointer;
+}
+.page2-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 64px;
+}
+.page2-top button {
+  background: none;
+}
+.page2-top h1 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 62px;
+}
+.ceo {
+  width: 1240px;
+  height: 1210px;
+}
