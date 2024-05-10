@@ -301,5 +301,47 @@ button {
 }
 .ceo {
   width: 1240px;
-  height: 1210px;
+  /* height: 1210px; */
+  margin-top: 96px;
+  margin-bottom: 100px;
+}
+.ceo-top {
+  width: 1240px;
+  height: 564px;
+  display: flex;
+  justify-content: space-between;
+}
+.ceo-text {
+  margin-top: 81px;
+}
+.ceo-top h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 24px;
+}
+.ceo-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.ceo-spc-c {
+  display: flex;
+  gap: 32px;
+  margin-block: 24px;
+}
+.ceo-spc {
+  width: 235px;
+  height: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.ceo-spc h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
