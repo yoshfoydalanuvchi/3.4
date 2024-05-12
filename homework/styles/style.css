@@ -305,11 +305,12 @@ button {
   margin-top: 96px;
   margin-bottom: 100px;
 }
-.ceo-top {
+.ceo-box {
   width: 1240px;
   height: 564px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 82px;
 }
 .ceo-text {
   margin-top: 81px;
@@ -324,6 +325,7 @@ button {
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
+  color: #454f5b;
 }
 .ceo-spc-c {
   display: flex;
@@ -344,4 +346,16 @@ button {
   display: flex;
   align-items: center;
   gap: 3px;
+}
+.ceo-text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 8px;
+}
+.ceo-text:last-child {
+  margin-left: 30px;
+}
+.ceo-text:last-child p {
+  margin-top: 16px;
 }
