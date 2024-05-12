@@ -156,6 +156,11 @@ button {
   font-weight: 400;
   line-height: 26px;
   background-color: white;
+  display: flex;
+  align-items: center;
+}
+.abd {
+  display: flex;
 }
 .blue-btn {
   border: 1px solid #add7ff;
